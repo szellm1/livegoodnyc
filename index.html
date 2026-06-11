@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiveGood</title>
     <link rel="stylesheet" href="styles.css">
+    <script 
+  src="https://www.paypal.com/sdk/js?client-id=BAAYJk_kEyiR_1PIzPp1u10-Pq-k92OwOelGY_3WH7n-eXM62zzbPtQJOsBnuzkZr_hzgtiYVvUDGJry9k&components=hosted-buttons&enable-funding=venmo&currency=USD">
+    </script>
+    
 </head>
 <body>
+
 
 <nav>
     <div class="logo">LiveGood</div>
@@ -24,6 +29,23 @@
     <p>Practical monthly insights to improve your life, help others, and create lasting positive impact.</p>
     <a href="#newsletter" class="button">Join the Newsletter</a>
 </header>
+
+<section id="support">
+    <h2>Support LiveGood</h2>
+
+    <p>
+        Your support helps us continue creating newsletters,
+        educational materials, book recommendations, and charitable resources.
+    </p>
+
+    <div id="paypal-container-9VVGPT7U8EPXY"></div>
+
+    <script>
+      paypal.HostedButtons({
+        hostedButtonId: "9VVGPT7U8EPXY",
+      }).render("#paypal-container-9VVGPT7U8EPXY")
+    </script>
+</section>
 
 <section id="newsletter">
     <h2>Monthly Newsletter</h2>
@@ -100,6 +122,12 @@
     <div class="card">
         <h3>Financial Budgeting Template</h3>
         <p>Start your path towards healthy financial habits.</p>
+        <a class="button" href="materials/charity-checklist.txt" download>Download</a>
+    </div>
+
+     <div class="card">
+        <h3>Complete Sustainable Living Guide</h3>
+        <p>Everything you need to do good.</p>
         <a class="button" href="materials/charity-checklist.txt" download>Download</a>
     </div>
 </section>
