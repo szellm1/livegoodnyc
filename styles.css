@@ -13,10 +13,6 @@ body {
 }
 
 nav {
-    background: #ffffff;
-    border-bottom: 1px solid #ddd;
-    padding: 18px 40px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -27,8 +23,6 @@ nav {
     border-bottom: 1px solid #ddd;
     padding: 18px 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     z-index: 1000;
 }
 
