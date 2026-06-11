@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Helvetica, Garamond;
     color: #333;
     background: #ffffff;
     line-height: 1.6;
@@ -118,7 +118,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Helvetica, Garamond;
 }
 
 footer {
