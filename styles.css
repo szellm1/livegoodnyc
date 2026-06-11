@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Helvetica, Helvetica, Garamond;
+    font-family: Inter, -apple-system, system-ui, sans-serif;
     color: #333;
     background: #ffffff;
     line-height: 1.6;
@@ -130,7 +130,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    font-family: Helvetica, Helvetica, Garamond;
+    font-family: Inter, -apple-system, system-ui, sans-serif;
 }
 
 footer {
