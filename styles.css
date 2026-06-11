@@ -9,6 +9,7 @@ body {
     color: #333;
     background: #ffffff;
     line-height: 1.6;
+    padding-top: 80px;
 }
 
 nav {
@@ -18,6 +19,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
 }
 
 .logo {
